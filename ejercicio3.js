@@ -11,12 +11,12 @@ function contar(array){
             map[p] = 1;
         }
     }
-    console.log(map);
-    //
+    return map;
+    
 
 }
 
 
 let array_palabras = ['hola', 'que', 'que', 'Hola', 'cOmo', 'como', 'estas', 'hoy'];
 
-console.log('numero de coincidencias de: ' , contar(array_palabras));
+console.log(contar(array_palabras));
