@@ -12,6 +12,7 @@ function contar(array){
         }
     }
     console.log(map);
+    //
 
 }
 
